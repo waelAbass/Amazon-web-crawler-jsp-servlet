@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Amazon products index page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Amazon web crawler</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="products.jsp">products page </a></li>
+
+                </ul>
+            </div>
+        </nav>
+
+
+        <div>
+            <br><br><br><br>
+            <center><h1 class="text-primary">Amazon Crawling</h1></center>
+            <form action="receivedata">
+                <table border="0" align="center">
+                    <tr>
+                        <th align="right" class="control-label col-sm-2">Product URL</th>
+                        <td><input type="text" name="t1" value="" class="form-control" /></td>
+                        &nbsp
+                    </tr>
+
+                    <tr>
+                        <th align="right" class="control-label col-sm-2" > No Of Pages</th>
+                        <td><input type="text" name="t2" value="" class="form-control" />
+                            <br></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" align="center"> <input type="submit" value="Get reviews " class="btn btn-primary" /></td>
+                    </tr>
+                </table>
+
+            </form>
+        </div>
+
+        <footer   class="navbar-default navbar-fixed-bottom" style="background-color: #333333">
+            <div align="center" class="container-fluid"  style="color: #330033">
+                <span   
+                    style="width: 100%;text-align: center; color: #ffffff"   class="navbar-text" >© 2019 Copyright </span>
+            </div>
+        </footer>
+    </body>
+</html>
